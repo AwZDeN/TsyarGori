@@ -820,8 +820,9 @@ h1,h2,h3,h4 {
     }
     /* service */
     .service {
-        display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5vh;
     }
     /* reviews */
     .rewiews {
@@ -889,12 +890,6 @@ h1,h2,h3,h4 {
         flex-wrap: wrap;
         flex-direction: column;
     }
-    /* service */
-    .service {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     
     /* reviews */
     .rewiews {
