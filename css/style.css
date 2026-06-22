@@ -718,7 +718,7 @@ h1,h2,h3,h4 {
         position: sticky;
         top: 0;
         z-index: 1000;
-        background: #fff;
+        background: deepskyblue;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         min-height: 50px;
     }
