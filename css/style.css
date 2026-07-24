@@ -126,7 +126,7 @@ h1,h2,h3,h4 {
 }
 
 .header__logo {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: white;
 }
@@ -239,15 +239,15 @@ h1,h2,h3,h4 {
 }
 
 .contact__button {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 33%;
     height: 8vh;
     border: 0.2rem solid deepskyblue;
     color: deepskyblue;
     text-decoration: none;
     text-align: center;
-    padding-top: 1.7vh ;
-    margin: 2vh 2vw;
     font-size: 1.5rem;
     text-transform: uppercase;
     transition: background .2s linear, color .2s linear;
