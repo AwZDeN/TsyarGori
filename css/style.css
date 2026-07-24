@@ -242,6 +242,8 @@ h1,h2,h3,h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    gap: 2vh;
     width: 33%;
     height: 8vh;
     border: 0.2rem solid deepskyblue;
@@ -643,6 +645,7 @@ h1,h2,h3,h4 {
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    gap: 2vw;
     align-items: center;
     padding-bottom: 2vh;
 }
