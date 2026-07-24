@@ -243,7 +243,6 @@ h1,h2,h3,h4 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    gap: 2vh;
     width: 33%;
     height: 8vh;
     border: 0.2rem solid deepskyblue;
@@ -288,6 +287,9 @@ h1,h2,h3,h4 {
 .section__text {
     font-size: 1rem;
     color: #000;
+    display: flex;
+    gap: 2vh;
+    justify-content: center;
 }
 
 /* About */
@@ -774,7 +776,7 @@ h1,h2,h3,h4 {
     }
     /* contact */
     .contact__button {
-        width: 50%
+        width: 70%
     }
 }
     
